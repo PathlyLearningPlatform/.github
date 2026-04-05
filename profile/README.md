@@ -8,6 +8,7 @@
 ## Uwagi
 
 - przed uruchomieniem aplikacji upewnij się, że na twoim komputerze porty: `4000` oraz `5173` są wolne.
+- upewnij się, że docker jest uruchomiony
 
 ## Proces uruchomienia
 
@@ -21,3 +22,5 @@
 - wykonaj komendę `npm i`
 - wykonaj komendę `npm run dev`
 - aplikacja będzie dostępna w przeglądarce pod adresen `http://localhost:5173`
+
+**Podpowiedź**: Jeśli już masz kopie repozytoriów na swoim komputerze, to nie musisz ich drugi raz klonować
