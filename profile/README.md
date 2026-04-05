@@ -9,6 +9,7 @@
 
 - przed uruchomieniem aplikacji upewnij się, że na twoim komputerze porty: `4000` oraz `5173` są wolne.
 - upewnij się, że docker jest uruchomiony
+- pierwsze uruchomienie aplikacji może potrwać długo (nawet do kilku minut), ponieważ muszą zostać pobrane wszystkie zależności. Kolejne uruchmienia będą szybsze.
 
 ## Proces uruchomienia
 
