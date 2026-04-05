@@ -15,6 +15,9 @@
 
 - sklonuj repozytorium PathlyLearningPlatform/Backend za pomocą komendy: `git clone https://github.com/PathlyLearningPlatform/Backend.git`
 - sklonuj repozytorium PathlyLearningPlatform/Frontend za pomocą komendy: `git clone https://github.com/PathlyLearningPlatform/Frontend.git`
+
+![klonowanie repozytoriów](./img/startup/klonowanie.jpg)
+
 - wejdź do folderu `Backend` komendą: `cd .\Backend`
 - uruchom skrypt `start.local.bat` komendą: `.\scripts\win\start.local.bat`
 - poczekaj aż skrypt się wykona
