@@ -4,6 +4,7 @@
 
 - zainstalowany docker ([link do instalacji](https://docs.docker.com/desktop/setup/install/windows-install/))
 - zainstalowany NodeJS ([link do instalacji](https://nodejs.org/en/download))
+- zainstalowany git ([link do instalacji](https://git-scm.com/install/windows))
 - połączenie z internetem
 
 ## Uwagi
