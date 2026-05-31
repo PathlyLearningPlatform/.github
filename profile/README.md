@@ -9,10 +9,10 @@
 
 ## Uwagi
 
-- przed uruchomieniem aplikacji upewnij się, że na twoim komputerze porty: `4000` oraz `5173` są wolne.
+- przed uruchomieniem aplikacji upewnij się, że na twoim komputerze porty: `5432`, `7474`, `8080`, `3000`, `4000`, `5173` nie są zajęte.
 - upewnij się, że docker jest uruchomiony
 - upewnij się, że masz połączenie z internetem
-- pierwsze uruchomienie aplikacji może potrwać długo (nawet do kilku minut), ponieważ muszą zostać pobrane wszystkie zależności. Kolejne uruchmienia będą szybsze.
+- pierwsze uruchomienie aplikacji może potrwać długo (nawet do kilku minut), ponieważ muszą zostać pobrane wszystkie zależności. Kolejne uruchomienia będą szybsze.
 
 ## Proces uruchomienia
 
@@ -20,6 +20,8 @@
 - sklonuj repozytorium PathlyLearningPlatform/Frontend za pomocą komendy: `git clone https://github.com/PathlyLearningPlatform/Frontend.git`
 
 ![klonowanie repozytoriów](./img/startup/klonowanie.jpg)
+
+### Windows
 
 - wejdź do folderu `Backend` komendą: `cd .\Backend`
 - uruchom skrypt `start.local.bat` komendą: `.\scripts\win\start.local.bat`
@@ -31,7 +33,7 @@
 ![zakonczenie uruchamiania backendu](./img/startup/zakonczenie-uruchamiania-backendu.jpg)
   
 - wyjdź z folderu `Backend` komendą: `cd ..`
-- wejdź do folderu `Frontend` komendą: `cd .\Frontend`
+- wejdź do folderu `Frontend` komendą: `cd .\Frontend` (ta komenda działa tylko, jeżeli foldery `Backend` oraz `Frontend` znajdują się w tym samym katalogu)
 - wykonaj komendę `npm i`
 - wykonaj komendę `npm run dev`
 
